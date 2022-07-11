@@ -24,4 +24,7 @@ Which would mean that adding some $\epsilon_i>0$ to each model's weight would in
 
 $$FOM(MM) < FOM(\sum_{i}^{} (w_i M_i + \epsilon_i))$$
 
-But with $\epsilon = \sum_{i}^{} (\epsilon_i)$, this gives $FOM(MM) < FOM(MM + \epsilon)$ and therefore a contradiction with (1). $\square$
+But with
+$$\epsilon = \sum_{i}^{} (\epsilon_i)$$
+, this gives $$FOM(MM) < FOM(MM + \epsilon)$$
+and therefore a contradiction with (1). $\square$
